@@ -1,0 +1,1 @@
+{"uuid":"c952279b-2fc1-4ea3-b6ee-b3ed4edb92cf","name":"SignUp.beforeMethod","children":["5e097d6e-2899-42a1-99d2-114c309855bb"],"description":"","befores":[{"name":"beforeMethod","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1773836714713,"stop":1773836717529}],"afters":[],"start":1773836714713,"stop":1773836717530}

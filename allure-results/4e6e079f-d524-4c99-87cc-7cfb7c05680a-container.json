@@ -1,0 +1,1 @@
+{"uuid":"4e6e079f-d524-4c99-87cc-7cfb7c05680a","name":"Shopping","children":["30f7752a-2d1c-4b0c-b2d2-bf4acad647c1"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1773866831614,"stop":1773866862450}],"afters":[],"start":1773866831565,"stop":1773866863854}

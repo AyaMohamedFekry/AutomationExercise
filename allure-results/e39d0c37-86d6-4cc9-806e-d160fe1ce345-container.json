@@ -1,0 +1,1 @@
+{"uuid":"e39d0c37-86d6-4cc9-806e-d160fe1ce345","name":"SignUp","children":["66fcf959-a508-4da6-99a8-fe3b9c570ad4"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1773839524086,"stop":1773839540571}],"afters":[],"start":1773839524036,"stop":1773839548840}
