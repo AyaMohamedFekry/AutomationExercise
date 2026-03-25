@@ -16,6 +16,11 @@ This project contains end-to-end test automation using Selenium WebDriver and Te
 - Maven
 - Page Object Model (POM)
 
+## 📂 Framework Design
+- Page Object Model (POM)
+- TestNG for test execution
+- Maven for dependency management
+
 ## ▶️ How to Run
 1. Clone the project
 2. Open in IntelliJ
