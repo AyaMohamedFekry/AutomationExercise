@@ -74,7 +74,7 @@ public class ShoppingPage {
         driver.findElement(viewCartLink).click();
     }
 
-    public String isViewCartDisplayed()
+    public String getCurrentCartPageUrl()
     {
         return driver.getCurrentUrl();
     }

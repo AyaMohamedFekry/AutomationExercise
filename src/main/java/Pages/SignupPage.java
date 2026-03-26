@@ -104,7 +104,7 @@ public class SignupPage {
         driver.findElement(createAccountButton).click();
     }
 
-    public String registrationVerification()
+    public String getRegistrationConfirmationText()
     {
         return driver.findElement(verify).getText();
     }

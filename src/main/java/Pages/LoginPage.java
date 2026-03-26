@@ -39,12 +39,12 @@ public class LoginPage {
         driver.findElement(getPassword).sendKeys(password);
         driver.findElement(loginbutton).click();
     }
-    public String checkIsLoggedIn()
+    public String getCurrentPageUrl()
     {
         return driver.getCurrentUrl();
     }
 
-    public String verifyErrorMessage()
+    public String getErrorMessageText()
     {
         return driver.findElement(getErrorMessage).getText();
     }

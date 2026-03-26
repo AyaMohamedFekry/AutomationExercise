@@ -19,7 +19,7 @@ public class SignUp extends BaseTest{
         obj.setSignup("Aya","aya13579@gmail.com");
         obj.enterAccountInformation("Mrs.","135792468&","12","December","2002","Receive special offers from our partners!");
         obj.enterAddressInformation("Aya","Mohamed","NTI","Street 2","Canada","Single","Cairo","13495","8445445844");
-        String actual = obj.registrationVerification();
+        String actual = obj.getRegistrationConfirmationText();
         String expected = "ACCOUNT CREATED!";
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(actual,expected);

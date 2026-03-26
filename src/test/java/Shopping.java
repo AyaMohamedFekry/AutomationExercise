@@ -28,7 +28,7 @@ public class Shopping extends BaseTest {
         //Navigate to View Cart page
         obj.viewCart();
         //Verify that user is redirected to View Cart Page
-        String actual = obj.isViewCartDisplayed();
+        String actual = obj.getCurrentCartPageUrl();
         String expected = "https://automationexercise.com/view_cart";
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(actual,expected);

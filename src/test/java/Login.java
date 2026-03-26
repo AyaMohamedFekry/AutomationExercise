@@ -14,7 +14,7 @@ public class Login extends BaseTest{
         LoginPage obj = new LoginPage(driver);
         obj.moveToLoginPage();
         obj.login("aya13579@gmail.com", "135792468&");
-        String actual = obj.checkIsLoggedIn();
+        String actual = obj.getCurrentPageUrl();
         String expected = "https://automationexercise.com/";
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(actual,expected);
@@ -29,7 +29,7 @@ public class Login extends BaseTest{
         LoginPage obj = new LoginPage(driver);
         obj.moveToLoginPage();
         obj.login("aya1@gmail.com", "135792468&");
-        String actual = obj.verifyErrorMessage();
+        String actual = obj.getErrorMessageText();
         String expected  = "Your email or password is incorrect!";
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(actual,expected);
@@ -42,7 +42,7 @@ public class Login extends BaseTest{
         LoginPage obj = new LoginPage(driver);
         obj.moveToLoginPage();
         obj.login("aya13579@gmail.com", "135792");
-        String actual = obj.verifyErrorMessage();
+        String actual = obj.getErrorMessageText();
         String expected  = "Your email or password is incorrect!";
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(actual,expected);
@@ -63,7 +63,7 @@ public class Login extends BaseTest{
         LoginPage obj = new LoginPage(driver);
         obj.moveToLoginPage();
         obj.login("aya13579@gmail.com", "135792468&");
-        String actual = obj.verifyErrorMessage();
+        String actual = obj.getErrorMessageText();
         String expected  = "Your email or password is incorrect!";
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(actual,expected);
